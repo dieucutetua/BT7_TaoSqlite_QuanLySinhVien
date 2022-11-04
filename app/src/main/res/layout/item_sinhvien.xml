@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#A2E47E"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvTen_118"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Tên sinh viên"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/tvMasv_118"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="2050531200118"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:id="@+id/btnSua_118"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_restore_from_trash_24"
+            android:id="@+id/btnXoa_118"
+            />
+    </LinearLayout>
+
+</LinearLayout>
